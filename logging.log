@@ -1,0 +1,909 @@
+2023-12-21 14:25:13.447 | ERROR    | __main__:run_module:120 - The private key must be exactly 32 bytes long, instead of 0 bytes.
+2023-12-21 14:25:13.448 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 659 s.
+2023-12-21 14:29:07.497 | INFO     | modules.maverick:wait_gas:1773 - Get GWEI
+2023-12-21 14:29:07.768 | INFO     | modules.maverick:wait_gas:1778 - Current GWEI: 33.008187324 > 25
+2023-12-21 14:29:07.770 | INFO     | modules.maverick:sleep:1589 - 💤 Sleep 79 s.
+2023-12-21 14:30:27.816 | INFO     | modules.maverick:wait_gas:1778 - Current GWEI: 38.791191068 > 25
+2023-12-21 14:30:27.822 | INFO     | modules.maverick:sleep:1589 - 💤 Sleep 81 s.
+2023-12-21 14:31:49.926 | INFO     | modules.maverick:wait_gas:1778 - Current GWEI: 34.849083988 > 25
+2023-12-21 14:31:49.930 | INFO     | modules.maverick:sleep:1589 - 💤 Sleep 69 s.
+2023-12-21 14:33:00.021 | INFO     | modules.maverick:wait_gas:1778 - Current GWEI: 39.095915375 > 25
+2023-12-21 14:33:00.024 | INFO     | modules.maverick:sleep:1589 - 💤 Sleep 74 s.
+2023-12-21 14:33:56.573 | INFO     | modules.maverick:wait_gas:1773 - Get GWEI
+2023-12-21 14:33:56.858 | SUCCESS  | modules.maverick:wait_gas:1781 - GWEI is normal | current: 35.741266912 < 40
+2023-12-21 14:33:57.875 | INFO     | modules.maverick:swap:1913 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> ETH | 0.0 USDC
+2023-12-21 14:33:58.165 | SUCCESS  | modules.maverick:approve:1705 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Make approve
+2023-12-21 14:34:00.096 | ERROR    | modules.maverick:wrapper:1601 - Error | {'code': 3, 'message': 'insufficient funds for gas + value. balance: 0, fee: 91667780000000, value: 0', 'data': '0x'}
+2023-12-21 14:34:00.101 | INFO     | modules.maverick:sleep:1589 - 💤 Sleep 10 s.
+2023-12-21 14:34:10.226 | INFO     | modules.maverick:wait_gas:1773 - Get GWEI
+2023-12-21 14:34:10.353 | SUCCESS  | modules.maverick:wait_gas:1781 - GWEI is normal | current: 36.40477113 < 40
+2023-12-21 14:34:11.271 | INFO     | modules.maverick:swap:1913 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> ETH | 0.0 USDC
+2023-12-21 14:34:11.575 | SUCCESS  | modules.maverick:approve:1705 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Make approve
+2023-12-21 14:34:13.500 | ERROR    | modules.maverick:wrapper:1601 - Error | {'code': 3, 'message': 'insufficient funds for gas + value. balance: 0, fee: 90467170000000, value: 0', 'data': '0x'}
+2023-12-21 14:34:13.504 | INFO     | modules.maverick:sleep:1589 - 💤 Sleep 14 s.
+2023-12-21 14:34:27.649 | INFO     | modules.maverick:wait_gas:1773 - Get GWEI
+2023-12-21 14:34:27.929 | SUCCESS  | modules.maverick:wait_gas:1781 - GWEI is normal | current: 35.185687262 < 40
+2023-12-21 14:34:28.773 | INFO     | modules.maverick:swap:1913 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> ETH | 0.0 USDC
+2023-12-21 14:34:29.070 | SUCCESS  | modules.maverick:approve:1705 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Make approve
+2023-12-21 14:34:30.977 | ERROR    | modules.maverick:wrapper:1601 - Error | {'code': 3, 'message': 'insufficient funds for gas + value. balance: 0, fee: 90467170000000, value: 0', 'data': '0x'}
+2023-12-21 14:34:30.979 | INFO     | modules.maverick:sleep:1589 - 💤 Sleep 11 s.
+2023-12-21 14:34:42.103 | INFO     | modules.maverick:wait_gas:1773 - Get GWEI
+2023-12-21 14:34:42.353 | SUCCESS  | modules.maverick:wait_gas:1781 - GWEI is normal | current: 35.75146586 < 40
+2023-12-21 14:34:43.204 | INFO     | modules.maverick:swap:1913 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> ETH | 0.0 USDC
+2023-12-21 14:34:43.493 | SUCCESS  | modules.maverick:approve:1705 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Make approve
+2023-12-21 14:34:45.392 | ERROR    | modules.maverick:wrapper:1601 - Error | {'code': 3, 'message': 'insufficient funds for gas + value. balance: 0, fee: 90467170000000, value: 0', 'data': '0x'}
+2023-12-21 14:34:45.395 | INFO     | modules.maverick:sleep:1589 - 💤 Sleep 10 s.
+2023-12-21 14:34:55.503 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 556 s.
+2023-12-21 15:48:41.941 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-21 15:48:42.262 | INFO     | utils.gas_checker:wait_gas:34 - Current GWEI: 33.414155591 > 25
+2023-12-21 15:48:42.299 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 82 s.
+2023-12-21 15:50:34.675 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-21 15:50:35.309 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 34.796747044 < 40
+2023-12-21 15:50:36.694 | INFO     | modules.maverick:swap:129 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> ETH | 0.0 USDC
+2023-12-21 15:50:36.983 | SUCCESS  | modules.account:approve:115 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Make approve
+2023-12-21 15:50:39.989 | ERROR    | utils.helpers:wrapper:14 - Error | {'code': 3, 'message': 'insufficient funds for gas + value. balance: 0, fee: 91606600000000, value: 0', 'data': '0x'}
+2023-12-21 15:50:39.996 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 13 s.
+2023-12-21 15:50:53.124 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-21 15:50:54.167 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 34.505291195 < 40
+2023-12-21 15:50:55.109 | INFO     | modules.maverick:swap:129 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> ETH | 0.0 USDC
+2023-12-21 15:50:55.557 | SUCCESS  | modules.account:approve:115 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Make approve
+2023-12-21 15:50:57.738 | ERROR    | utils.helpers:wrapper:14 - Error | {'code': 3, 'message': 'insufficient funds for gas + value. balance: 0, fee: 91606600000000, value: 0', 'data': '0x'}
+2023-12-21 15:50:57.738 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 15 s.
+2023-12-21 15:51:12.871 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-21 15:51:13.207 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 33.978657364 < 40
+2023-12-22 02:10:20.796 | ERROR    | __main__:run_module:120 - 
+2023-12-22 02:10:20.805 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 730 s.
+2023-12-23 00:40:20.113 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-23 00:40:20.518 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 32.25538309 < 40
+2023-12-23 00:40:21.673 | INFO     | modules.maverick:swap:168 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> ETH | 0.0 USDC
+2023-12-23 00:40:22.036 | SUCCESS  | modules.account:approve:115 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Make approve
+2023-12-23 00:40:24.903 | ERROR    | utils.helpers:wrapper:14 - Error | {'code': 3, 'message': 'insufficient funds for gas + value. balance: 0, fee: 79459200000000, value: 0', 'data': '0x'}
+2023-12-23 00:40:24.910 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 20 s.
+2023-12-23 00:40:45.122 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-23 00:40:45.695 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 32.865306968 < 40
+2023-12-23 00:40:46.816 | INFO     | modules.maverick:swap:168 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> ETH | 0.0 USDC
+2023-12-23 00:40:47.093 | SUCCESS  | modules.account:approve:115 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Make approve
+2023-12-23 00:40:50.196 | ERROR    | utils.helpers:wrapper:14 - Error | {'code': 3, 'message': 'insufficient funds for gas + value. balance: 0, fee: 79459200000000, value: 0', 'data': '0x'}
+2023-12-23 00:40:50.203 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 18 s.
+2023-12-23 00:41:08.432 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-23 00:41:08.741 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 34.526116769 < 40
+2023-12-23 00:41:09.857 | INFO     | modules.maverick:swap:168 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> ETH | 0.0 USDC
+2023-12-23 00:41:10.472 | SUCCESS  | modules.account:approve:115 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Make approve
+2023-12-23 00:41:13.237 | ERROR    | utils.helpers:wrapper:14 - Error | {'code': 3, 'message': 'insufficient funds for gas + value. balance: 0, fee: 79590000000000, value: 0', 'data': '0x'}
+2023-12-23 00:41:13.244 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 18 s.
+2023-12-23 00:42:54.500 | ERROR    | __main__:run_module:120 - cannot access local variable 'to_token' where it is not associated with a value
+2023-12-23 00:42:54.502 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 629 s.
+2023-12-23 00:44:10.332 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-23 00:44:10.778 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 32.350544077 < 40
+2023-12-23 00:44:11.143 | INFO     | modules.maverick:swap:168 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – ETH -> USDC | 0 ETH
+2023-12-23 00:44:13.255 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: In or Out Amount is Zero
+2023-12-23 00:44:13.258 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 14 s.
+2023-12-23 00:44:37.706 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-23 00:44:38.145 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 33.678064134 < 40
+2023-12-23 00:44:39.983 | INFO     | modules.maverick:swap:168 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.0 USDC
+2023-12-23 00:44:42.235 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: In or Out Amount is Zero
+2023-12-23 00:44:42.238 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 12 s.
+2023-12-23 00:44:54.389 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-23 00:44:55.208 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 33.644952852 < 40
+2023-12-23 00:44:56.232 | INFO     | modules.maverick:swap:168 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.0 USDC
+2023-12-23 00:44:58.235 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: In or Out Amount is Zero
+2023-12-23 00:44:58.241 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 11 s.
+2023-12-23 00:45:09.360 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-23 00:45:09.476 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 32.720815425 < 40
+2023-12-23 00:45:10.704 | INFO     | modules.maverick:swap:168 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.0 USDC
+2023-12-23 00:45:12.758 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: In or Out Amount is Zero
+2023-12-23 00:45:12.760 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 18 s.
+2023-12-23 00:45:30.968 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-23 00:45:31.375 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 32.333686961 < 40
+2023-12-23 00:45:32.334 | INFO     | modules.maverick:swap:168 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.0 USDC
+2023-12-23 00:45:34.663 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: In or Out Amount is Zero
+2023-12-23 00:45:34.671 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 20 s.
+2023-12-23 00:45:54.859 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 653 s.
+2023-12-23 01:07:03.374 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-23 01:07:03.627 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 28.654138757 < 40
+2023-12-23 01:07:05.627 | INFO     | modules.maverick:swap:181 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.0 USDC
+2023-12-23 01:07:06.551 | ERROR    | utils.helpers:wrapper:14 - Error | ('web3.py only accepts checksum addresses. The software that gave you this non-checksum address should be considered unsafe, please file it as a bug on their platform. Try using an ENS name instead. Or, if you must accept lower safety, use Web3.to_checksum_address(lower_case_address).', '0x697703c8204f89c15f033c6aa489d97e1c837581')
+2023-12-23 01:07:06.556 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 12 s.
+2023-12-23 01:07:18.682 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-23 01:07:18.923 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 27.817086606 < 40
+2023-12-23 01:07:19.861 | INFO     | modules.maverick:swap:181 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.0 USDC
+2023-12-23 01:07:20.782 | ERROR    | utils.helpers:wrapper:14 - Error | ('web3.py only accepts checksum addresses. The software that gave you this non-checksum address should be considered unsafe, please file it as a bug on their platform. Try using an ENS name instead. Or, if you must accept lower safety, use Web3.to_checksum_address(lower_case_address).', '0x697703c8204f89c15f033c6aa489d97e1c837581')
+2023-12-23 01:07:20.785 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 13 s.
+2023-12-23 01:07:33.909 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-23 01:07:34.027 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 29.059788318 < 40
+2023-12-23 01:07:35.014 | INFO     | modules.maverick:swap:181 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.0 USDC
+2023-12-23 01:07:35.941 | ERROR    | utils.helpers:wrapper:14 - Error | ('web3.py only accepts checksum addresses. The software that gave you this non-checksum address should be considered unsafe, please file it as a bug on their platform. Try using an ENS name instead. Or, if you must accept lower safety, use Web3.to_checksum_address(lower_case_address).', '0x697703c8204f89c15f033c6aa489d97e1c837581')
+2023-12-23 01:07:35.945 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 17 s.
+2023-12-23 01:07:53.089 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-23 01:07:53.520 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 27.916608805 < 40
+2023-12-23 01:07:54.573 | INFO     | modules.maverick:swap:181 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.0 USDC
+2023-12-23 01:07:55.498 | ERROR    | utils.helpers:wrapper:14 - Error | ('web3.py only accepts checksum addresses. The software that gave you this non-checksum address should be considered unsafe, please file it as a bug on their platform. Try using an ENS name instead. Or, if you must accept lower safety, use Web3.to_checksum_address(lower_case_address).', '0x697703c8204f89c15f033c6aa489d97e1c837581')
+2023-12-23 01:07:55.501 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 17 s.
+2023-12-23 01:08:12.664 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 640 s.
+2023-12-23 01:17:12.875 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-23 01:17:13.374 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 27.028430897 < 40
+2023-12-23 01:17:15.116 | INFO     | modules.maverick:swap:181 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.0 USDC
+2023-12-23 01:17:16.344 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted
+2023-12-23 01:17:16.345 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 19 s.
+2023-12-23 01:17:35.517 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-23 01:17:35.768 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 28.976967472 < 40
+2023-12-23 01:17:36.822 | INFO     | modules.maverick:swap:181 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.0 USDC
+2023-12-23 01:19:26.547 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-23 01:19:27.746 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 27.616171915 < 40
+2023-12-23 01:19:28.851 | INFO     | modules.maverick:swap:181 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – WBTC -> USDC | 0.0 WBTC
+2023-12-23 01:19:30.041 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted
+2023-12-23 01:19:30.048 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 10 s.
+2023-12-23 01:27:38.113 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-23 01:27:38.530 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 28.463000351 < 40
+2023-12-23 01:27:39.656 | INFO     | modules.maverick:swap:181 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.0 USDC
+2023-12-23 01:27:40.578 | ERROR    | utils.helpers:wrapper:14 - Error | ("The function 'calculateSwap' was not found in this contract's abi.", ' Are you sure you provided the correct contract abi?')
+2023-12-23 01:27:40.579 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 17 s.
+2023-12-23 01:27:57.744 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-23 01:27:57.972 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 26.96829887 < 40
+2023-12-23 01:27:59.214 | INFO     | modules.maverick:swap:181 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.0 USDC
+2023-12-23 01:28:00.140 | ERROR    | utils.helpers:wrapper:14 - Error | ("The function 'calculateSwap' was not found in this contract's abi.", ' Are you sure you provided the correct contract abi?')
+2023-12-23 01:28:00.147 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 11 s.
+2023-12-23 01:28:11.270 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-23 01:28:11.381 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 26.205184688 < 40
+2023-12-23 01:28:12.320 | INFO     | modules.maverick:swap:181 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.0 USDC
+2023-12-23 01:28:13.208 | ERROR    | utils.helpers:wrapper:14 - Error | ("The function 'calculateSwap' was not found in this contract's abi.", ' Are you sure you provided the correct contract abi?')
+2023-12-23 01:28:13.212 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 17 s.
+2023-12-23 01:28:30.381 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-23 01:28:30.614 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 25.910355239 < 40
+2023-12-23 01:28:31.778 | INFO     | modules.maverick:swap:181 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.0 USDC
+2023-12-23 01:28:32.704 | ERROR    | utils.helpers:wrapper:14 - Error | ("The function 'calculateSwap' was not found in this contract's abi.", ' Are you sure you provided the correct contract abi?')
+2023-12-23 01:28:32.708 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 14 s.
+2023-12-23 01:28:46.865 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 661 s.
+2023-12-23 01:58:24.412 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-23 01:58:24.643 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 26.40315371 < 40
+2023-12-23 01:58:25.617 | INFO     | modules.maverick:swap:181 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.0 USDC
+2023-12-23 01:58:27.208 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: In or Out Amount is Zero
+2023-12-23 01:58:27.210 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 10 s.
+2023-12-23 01:58:37.323 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-23 01:58:37.474 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 25.70044831 < 40
+2023-12-23 01:58:38.348 | INFO     | modules.maverick:swap:181 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.0 USDC
+2023-12-23 01:58:39.952 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: In or Out Amount is Zero
+2023-12-23 01:58:39.954 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 17 s.
+2023-12-23 01:58:57.127 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-23 01:58:57.359 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 25.390663278 < 40
+2023-12-23 01:58:58.349 | INFO     | modules.maverick:swap:181 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.0 USDC
+2023-12-23 01:58:59.898 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: In or Out Amount is Zero
+2023-12-23 01:58:59.903 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 13 s.
+2023-12-23 01:59:13.017 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-23 02:00:07.094 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-23 02:00:07.356 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 26.383798381 < 40
+2023-12-23 02:00:08.358 | INFO     | modules.maverick:swap:181 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.0 USDC
+2023-12-23 02:00:10.624 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: In or Out Amount is Zero
+2023-12-23 02:00:10.625 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 16 s.
+2023-12-23 02:00:26.782 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-23 02:00:27.019 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 24.873944139 < 40
+2023-12-23 02:00:28.717 | INFO     | modules.maverick:swap:181 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.0 USDC
+2023-12-23 02:00:30.336 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: In or Out Amount is Zero
+2023-12-23 02:00:30.338 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 11 s.
+2023-12-23 02:00:41.429 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-23 02:00:41.535 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 25.942394693 < 40
+2023-12-23 02:00:42.438 | INFO     | modules.maverick:swap:181 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.0 USDC
+2023-12-23 02:00:44.094 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: In or Out Amount is Zero
+2023-12-23 02:00:44.095 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 13 s.
+2023-12-23 02:00:57.214 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-23 02:00:57.495 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 29.593346315 < 40
+2023-12-23 02:00:58.412 | INFO     | modules.maverick:swap:181 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.0 USDC
+2023-12-23 02:00:59.926 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: In or Out Amount is Zero
+2023-12-23 02:00:59.929 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 11 s.
+2023-12-23 02:17:30.895 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-23 02:17:31.744 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 28.381435665 < 40
+2023-12-23 02:17:33.607 | INFO     | modules.maverick:swap:181 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – WBTC -> USDC | 0.0 WBTC
+2023-12-23 02:17:35.319 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: In or Out Amount is Zero
+2023-12-23 02:17:35.320 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 14 s.
+2023-12-27 00:03:10.002 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 00:03:10.397 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 23.455514186 < 40
+2023-12-27 00:03:11.175 | INFO     | modules.maverick:swap:181 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – ETH -> USDC | 0.01485 ETH
+2023-12-27 00:03:13.912 | ERROR    | utils.helpers:wrapper:14 - Error | {'code': 3, 'message': 'insufficient funds for gas + value. balance: 14850000000000000, fee: 239860500000000, value: 14850000000000000', 'data': '0x'}
+2023-12-27 00:03:13.913 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 20 s.
+2023-12-27 00:03:34.156 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 00:03:36.462 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 22.158662089 < 40
+2023-12-27 00:03:37.243 | INFO     | modules.maverick:swap:181 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – ETH -> USDC | 0.01485 ETH
+2023-12-27 00:03:40.897 | ERROR    | utils.helpers:wrapper:14 - Error | {'code': 3, 'message': 'insufficient funds for gas + value. balance: 14850000000000000, fee: 239525550000000, value: 14850000000000000', 'data': '0x'}
+2023-12-27 00:03:40.899 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 19 s.
+2023-12-27 00:04:00.064 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 00:04:00.357 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 22.616751837 < 40
+2023-12-27 00:04:00.756 | INFO     | modules.maverick:swap:181 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – ETH -> USDC | 0.01485 ETH
+2023-12-27 00:04:03.223 | ERROR    | utils.helpers:wrapper:14 - Error | {'code': 3, 'message': 'insufficient funds for gas + value. balance: 14850000000000000, fee: 239525550000000, value: 14850000000000000', 'data': '0x'}
+2023-12-27 00:04:03.227 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 10 s.
+2023-12-27 00:04:13.315 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 00:04:13.787 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 22.792477434 < 40
+2023-12-27 00:04:14.080 | INFO     | modules.maverick:swap:181 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – ETH -> USDC | 0.01485 ETH
+2023-12-27 00:04:16.955 | ERROR    | utils.helpers:wrapper:14 - Error | {'code': 3, 'message': 'insufficient funds for gas + value. balance: 14850000000000000, fee: 238502850000000, value: 14850000000000000', 'data': '0x'}
+2023-12-27 00:04:16.959 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 17 s.
+2023-12-27 00:04:34.111 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 639 s.
+2023-12-27 00:09:30.772 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 00:09:31.160 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 21.890554028 < 40
+2023-12-27 00:09:31.641 | INFO     | modules.maverick:swap:181 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – ETH -> USDC | 0.0001485 ETH
+2023-12-27 00:09:36.288 | SUCCESS  | modules.account:wait_until_tx_finished:141 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] https://explorer.zksync.io/tx/0x0c23e3a42211312cf6886b526246d9ebbb6964bf07ae5c4c0ef548b60ed1a0fa successfully!
+2023-12-27 00:09:36.289 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 533 s.
+2023-12-27 00:11:26.099 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 00:11:26.592 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 21.505040224 < 40
+2023-12-27 00:11:27.684 | INFO     | modules.maverick:swap:181 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.00326434 USDC
+2023-12-27 00:11:29.358 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: STF
+2023-12-27 00:11:29.359 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 16 s.
+2023-12-27 00:11:45.466 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 00:11:45.758 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 20.697504522 < 40
+2023-12-27 00:11:46.834 | INFO     | modules.maverick:swap:181 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.00326434 USDC
+2023-12-27 00:11:48.383 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: STF
+2023-12-27 00:11:48.384 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 16 s.
+2023-12-27 00:12:04.544 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 00:12:05.505 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 19.93283431 < 40
+2023-12-27 00:12:06.715 | INFO     | modules.maverick:swap:181 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.00652868 USDC
+2023-12-27 00:12:08.722 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: STF
+2023-12-27 00:12:08.723 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 18 s.
+2023-12-27 00:13:15.232 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 00:13:15.720 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 24.479582759 < 40
+2023-12-27 00:13:17.407 | INFO     | modules.maverick:swap:181 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.00326434 USDC
+2023-12-27 00:13:18.982 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: STF
+2023-12-27 00:13:18.982 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 10 s.
+2023-12-27 00:13:29.073 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 00:13:29.363 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 24.416680027 < 40
+2023-12-27 00:13:30.323 | INFO     | modules.maverick:swap:181 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.00652868 USDC
+2023-12-27 00:13:32.167 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: STF
+2023-12-27 00:13:32.170 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 19 s.
+2023-12-27 00:13:51.376 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 00:13:51.642 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 23.926538386 < 40
+2023-12-27 00:13:52.686 | INFO     | modules.maverick:swap:181 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.00652868 USDC
+2023-12-27 00:13:54.263 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: STF
+2023-12-27 00:13:54.264 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 12 s.
+2023-12-27 00:14:06.388 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 00:14:06.700 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 22.938201788 < 40
+2023-12-27 00:14:08.353 | INFO     | modules.maverick:swap:181 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.00652868 USDC
+2023-12-27 00:14:09.941 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: STF
+2023-12-27 00:14:09.944 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 20 s.
+2023-12-27 00:14:30.093 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 791 s.
+2023-12-27 00:18:40.247 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 00:18:40.776 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 21.959445824 < 40
+2023-12-27 00:18:41.984 | INFO     | modules.maverick:swap:182 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.00326434 USDC
+2023-12-27 00:18:43.823 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: STF
+2023-12-27 00:18:43.824 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 13 s.
+2023-12-27 00:18:56.947 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 00:18:57.124 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 23.022338958 < 40
+2023-12-27 00:18:57.962 | INFO     | modules.maverick:swap:182 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.00652868 USDC
+2023-12-27 00:18:59.786 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: STF
+2023-12-27 00:18:59.787 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 19 s.
+2023-12-27 00:19:19.011 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 00:19:19.152 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 22.868903383 < 40
+2023-12-27 00:19:20.137 | INFO     | modules.maverick:swap:182 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.00652868 USDC
+2023-12-27 00:19:22.163 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: STF
+2023-12-27 00:19:22.165 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 15 s.
+2023-12-27 00:19:37.314 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 00:19:37.582 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 22.595407843 < 40
+2023-12-27 00:19:38.522 | INFO     | modules.maverick:swap:182 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.00326434 USDC
+2023-12-27 00:19:40.007 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: STF
+2023-12-27 00:19:40.008 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 13 s.
+2023-12-27 00:22:39.715 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 00:22:39.950 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 19.267942384 < 40
+2023-12-27 00:22:40.919 | INFO     | modules.maverick:swap:192 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.00652868 USDC
+2023-12-27 00:22:42.998 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: STF
+2023-12-27 00:22:42.999 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 20 s.
+2023-12-27 00:23:03.192 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 00:23:03.509 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 18.072183201 < 40
+2023-12-27 00:23:04.478 | INFO     | modules.maverick:swap:192 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.00326434 USDC
+2023-12-27 00:23:06.039 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: STF
+2023-12-27 00:23:06.041 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 15 s.
+2023-12-27 00:23:21.182 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 00:23:21.670 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 18.620692732 < 40
+2023-12-27 00:23:22.820 | INFO     | modules.maverick:swap:192 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.00652868 USDC
+2023-12-27 00:23:24.700 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: STF
+2023-12-27 00:23:24.705 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 19 s.
+2023-12-27 00:23:43.827 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 00:23:44.270 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 18.658392018 < 40
+2023-12-27 00:23:45.216 | INFO     | modules.maverick:swap:192 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.00652868 USDC
+2023-12-27 00:23:46.815 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: STF
+2023-12-27 00:23:46.817 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 18 s.
+2023-12-27 00:24:11.288 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 00:24:11.703 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 17.896782221 < 40
+2023-12-27 00:24:12.636 | INFO     | modules.maverick:swap:192 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.00652868 USDC
+2023-12-27 00:24:15.058 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: STF
+2023-12-27 00:24:15.060 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 14 s.
+2023-12-27 00:24:29.217 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 00:24:29.530 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 20.355818061 < 40
+2023-12-27 00:24:30.413 | INFO     | modules.maverick:swap:192 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.00326434 USDC
+2023-12-27 00:24:32.284 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: STF
+2023-12-27 00:24:32.286 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 12 s.
+2023-12-27 00:24:44.388 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 00:24:44.981 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 20.465479816 < 40
+2023-12-27 00:24:46.355 | INFO     | modules.maverick:swap:192 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.00652868 USDC
+2023-12-27 00:24:47.998 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: STF
+2023-12-27 00:24:48.000 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 15 s.
+2023-12-27 00:25:03.114 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 00:25:03.406 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 19.462915499 < 40
+2023-12-27 00:25:04.387 | INFO     | modules.maverick:swap:192 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.00652868 USDC
+2023-12-27 00:25:05.921 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: STF
+2023-12-27 00:25:05.924 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 15 s.
+2023-12-27 00:25:21.016 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 782 s.
+2023-12-27 00:37:33.004 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 00:37:33.961 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 21.352544686 < 40
+2023-12-27 00:37:35.138 | INFO     | modules.maverick:swap:191 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.00652868 USDC
+2023-12-27 00:37:37.571 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: STF
+2023-12-27 00:37:37.571 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 19 s.
+2023-12-27 00:37:56.735 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 00:37:57.669 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 22.409669676 < 40
+2023-12-27 00:37:58.544 | INFO     | modules.maverick:swap:191 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.00652868 USDC
+2023-12-27 00:38:00.068 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: STF
+2023-12-27 00:38:00.073 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 12 s.
+2023-12-27 00:38:12.176 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 00:38:12.269 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 21.373251894 < 40
+2023-12-27 00:38:13.097 | INFO     | modules.maverick:swap:191 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.00326434 USDC
+2023-12-27 00:38:14.762 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: STF
+2023-12-27 00:38:14.763 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 20 s.
+2023-12-27 00:38:34.955 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 00:38:35.253 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 21.615956972 < 40
+2023-12-27 00:38:36.478 | INFO     | modules.maverick:swap:191 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.00326434 USDC
+2023-12-27 00:38:38.157 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: STF
+2023-12-27 00:38:38.158 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 14 s.
+2023-12-27 01:01:55.610 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 01:01:56.001 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 22.260936876 < 40
+2023-12-27 01:01:57.001 | INFO     | modules.maverick:swap:191 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.00326434 USDC
+2023-12-27 01:01:58.771 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: STF
+2023-12-27 01:01:58.772 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 15 s.
+2023-12-27 01:02:13.913 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 01:02:14.114 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 21.715656345 < 40
+2023-12-27 01:02:15.069 | INFO     | modules.maverick:swap:191 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.00652868 USDC
+2023-12-27 01:02:16.663 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: STF
+2023-12-27 01:02:16.665 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 14 s.
+2023-12-27 01:02:30.760 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 01:02:31.190 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 21.539501608 < 40
+2023-12-27 01:02:32.146 | INFO     | modules.maverick:swap:191 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.00326434 USDC
+2023-12-27 01:02:33.727 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: STF
+2023-12-27 01:02:33.728 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 11 s.
+2023-12-27 01:02:44.830 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 01:02:44.898 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 20.889493122 < 40
+2023-12-27 01:02:45.710 | INFO     | modules.maverick:swap:191 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.00326434 USDC
+2023-12-27 01:02:47.482 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: STF
+2023-12-27 01:02:47.484 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 12 s.
+2023-12-27 01:02:59.593 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 519 s.
+2023-12-27 01:03:25.062 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 01:03:25.390 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 19.332740705 < 40
+2023-12-27 01:03:26.306 | INFO     | modules.maverick:swap:191 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.30684796 USDC
+2023-12-27 01:03:31.741 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Storage invocations limit reached
+2023-12-27 01:03:31.742 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 11 s.
+2023-12-27 01:03:42.826 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 01:03:44.117 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 23.275524081 < 40
+2023-12-27 01:03:44.986 | INFO     | modules.maverick:swap:191 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.30684796 USDC
+2023-12-27 01:03:50.220 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Storage invocations limit reached
+2023-12-27 01:03:50.225 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 13 s.
+2023-12-27 01:04:03.353 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 01:04:03.895 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 21.258476147 < 40
+2023-12-27 01:04:04.736 | INFO     | modules.maverick:swap:191 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.326434 USDC
+2023-12-27 01:04:09.635 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Storage invocations limit reached
+2023-12-27 01:04:09.638 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 16 s.
+2023-12-27 01:04:25.779 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 01:04:26.081 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 20.685662561 < 40
+2023-12-27 01:04:27.038 | INFO     | modules.maverick:swap:191 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.30031928 USDC
+2023-12-27 01:05:11.906 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 01:05:12.402 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 20.376147534 < 40
+2023-12-27 01:05:13.302 | INFO     | modules.maverick:swap:187 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.30358362 USDC
+2023-12-27 01:05:16.334 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Storage invocations limit reached
+2023-12-27 01:05:16.335 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 18 s.
+2023-12-27 01:05:55.151 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 01:05:55.732 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 20.361880048 < 40
+2023-12-27 01:05:58.793 | INFO     | modules.maverick:swap:191 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.30684796 USDC
+2023-12-27 01:06:01.351 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Storage invocations limit reached
+2023-12-27 01:06:01.352 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 14 s.
+2023-12-27 01:27:41.600 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 01:27:42.399 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 19.858663781 < 40
+2023-12-27 01:27:44.378 | INFO     | modules.maverick:swap:193 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.30358362 USDC
+2023-12-27 01:27:47.600 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Storage invocations limit reached
+2023-12-27 01:27:47.601 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 14 s.
+2023-12-27 01:33:08.040 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 01:33:08.366 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 15.750854978 < 40
+2023-12-27 01:33:09.705 | INFO     | modules.maverick:swap:193 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.30684796 USDC
+2023-12-27 01:33:12.946 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Storage invocations limit reached
+2023-12-27 01:33:12.947 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 17 s.
+2023-12-27 01:39:56.963 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 01:39:57.268 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 16.408636735 < 40
+2023-12-27 01:39:58.451 | INFO     | modules.maverick:swap:201 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.3101123 USDC
+2023-12-27 01:40:01.478 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Storage invocations limit reached
+2023-12-27 01:40:01.479 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 10 s.
+2023-12-27 01:44:56.468 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 01:44:56.783 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 17.459722918 < 40
+2023-12-27 01:44:58.506 | INFO     | modules.maverick:swap:201 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.326434 USDC
+2023-12-27 01:45:03.271 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Storage invocations limit reached
+2023-12-27 01:45:03.272 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 15 s.
+2023-12-27 01:47:22.925 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 01:47:23.527 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 17.977773972 < 40
+2023-12-27 01:47:24.586 | INFO     | modules.maverick:swap:207 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.29705494 USDC
+2023-12-27 01:47:29.303 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Storage invocations limit reached
+2023-12-27 01:47:29.304 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 18 s.
+2023-12-27 01:48:13.677 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 01:48:14.511 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 17.663462294 < 40
+2023-12-27 01:48:15.574 | INFO     | modules.maverick:swap:207 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.2937906 USDC
+2023-12-27 01:48:17.686 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Storage invocations limit reached
+2023-12-27 01:48:17.687 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 11 s.
+2023-12-27 01:52:13.367 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 01:52:13.797 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 16.444286189 < 40
+2023-12-27 01:52:14.831 | INFO     | modules.maverick:swap:189 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.31664098 USDC
+2023-12-27 01:52:16.668 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Storage invocations limit reached
+2023-12-27 01:52:16.669 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 19 s.
+2023-12-27 01:53:27.249 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 01:53:27.808 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 16.301310836 < 40
+2023-12-27 01:53:28.819 | INFO     | modules.maverick:swap:189 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.326434 USDC
+2023-12-27 01:53:33.033 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Storage invocations limit reached
+2023-12-27 01:53:33.034 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 19 s.
+2023-12-27 01:54:31.164 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 01:54:31.528 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 16.639050529 < 40
+2023-12-27 01:54:32.474 | INFO     | modules.maverick:swap:189 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.32316966 USDC
+2023-12-27 01:54:34.255 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Storage invocations limit reached
+2023-12-27 01:54:34.258 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 10 s.
+2023-12-27 01:54:44.355 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 01:54:44.697 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 16.878034651 < 40
+2023-12-27 01:54:45.493 | INFO     | modules.maverick:swap:189 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.30684796 USDC
+2023-12-27 01:54:47.358 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Storage invocations limit reached
+2023-12-27 01:54:47.362 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 14 s.
+2023-12-27 01:55:01.467 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 01:55:02.026 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 16.710683263 < 40
+2023-12-27 01:55:02.860 | INFO     | modules.maverick:swap:189 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.2937906 USDC
+2023-12-27 01:55:04.049 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Storage invocations limit reached
+2023-12-27 01:55:04.052 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 15 s.
+2023-12-27 01:55:22.349 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 01:55:22.609 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 16.267908764 < 40
+2023-12-27 01:55:24.290 | INFO     | modules.maverick:swap:189 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.30358362 USDC
+2023-12-27 01:55:26.312 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Storage invocations limit reached
+2023-12-27 01:55:26.313 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 19 s.
+2023-12-27 02:00:33.915 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:00:34.121 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 17.824246751 < 40
+2023-12-27 02:00:36.506 | INFO     | modules.maverick:swap:194 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.32316966 USDC
+2023-12-27 02:00:37.094 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Storage invocations limit reached
+2023-12-27 02:00:37.095 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 11 s.
+2023-12-27 02:03:32.869 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:03:33.137 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 17.771113924 < 40
+2023-12-27 02:03:34.043 | INFO     | modules.maverick:swap:197 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.31990532 USDC
+2023-12-27 02:03:39.165 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Storage invocations limit reached
+2023-12-27 02:03:39.166 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 18 s.
+2023-12-27 02:04:08.497 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:04:08.926 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 16.663368397 < 40
+2023-12-27 02:04:10.507 | INFO     | modules.maverick:swap:197 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.32316966 USDC
+2023-12-27 02:04:12.254 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Storage invocations limit reached
+2023-12-27 02:04:12.256 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 14 s.
+2023-12-27 02:06:38.405 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:06:38.712 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 16.246500299 < 40
+2023-12-27 02:06:39.600 | INFO     | modules.maverick:swap:197 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.31337664 USDC
+2023-12-27 02:06:42.144 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Storage invocations limit reached
+2023-12-27 02:06:42.146 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 18 s.
+2023-12-27 02:07:06.614 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:07:06.818 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 15.976295476 < 40
+2023-12-27 02:07:07.930 | INFO     | modules.maverick:swap:197 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.31337664 USDC
+2023-12-27 02:07:12.968 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Storage invocations limit reached
+2023-12-27 02:07:12.970 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 18 s.
+2023-12-27 02:12:12.348 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:12:12.770 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 15.62996731 < 40
+2023-12-27 02:12:14.368 | INFO     | modules.maverick:swap:195 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.31990532 USDC
+2023-12-27 02:12:16.554 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Storage invocations limit reached
+2023-12-27 02:12:16.555 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 12 s.
+2023-12-27 02:12:28.676 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:12:28.922 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 16.871065819 < 40
+2023-12-27 02:12:30.433 | INFO     | modules.maverick:swap:195 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.30684796 USDC
+2023-12-27 02:12:32.105 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Storage invocations limit reached
+2023-12-27 02:12:32.108 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 12 s.
+2023-12-27 02:12:44.226 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:12:44.670 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 16.585494444 < 40
+2023-12-27 02:12:45.503 | INFO     | modules.maverick:swap:195 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.30031928 USDC
+2023-12-27 02:12:47.236 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Storage invocations limit reached
+2023-12-27 02:12:47.239 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 15 s.
+2023-12-27 02:13:11.850 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:13:12.262 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 15.300340309 < 40
+2023-12-27 02:13:13.214 | INFO     | modules.maverick:swap:195 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.30358362 USDC
+2023-12-27 02:13:15.320 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Storage invocations limit reached
+2023-12-27 02:13:15.321 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 13 s.
+2023-12-27 02:17:39.118 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:17:39.689 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 15.861414776 < 40
+2023-12-27 02:17:40.355 | INFO     | modules.vesync:swap:103 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on VeSync – ETH -> USDC | 0.001461065955 ETH
+2023-12-27 02:17:41.705 | ERROR    | utils.helpers:wrapper:14 - Error | Cannot set 'data' field in build transaction
+2023-12-27 02:17:41.706 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 10 s.
+2023-12-27 02:18:09.980 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:18:10.194 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 15.805103758 < 40
+2023-12-27 02:18:11.149 | INFO     | modules.maverick:swap:195 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.326434 USDC
+2023-12-27 02:18:12.715 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Storage invocations limit reached
+2023-12-27 02:18:12.716 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 18 s.
+2023-12-27 02:19:14.193 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:19:14.633 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 15.758066611 < 40
+2023-12-27 02:19:15.623 | INFO     | modules.maverick:swap:195 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.32316966 USDC
+2023-12-27 02:19:18.032 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Storage invocations limit reached
+2023-12-27 02:19:18.036 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 20 s.
+2023-12-27 02:20:30.236 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:20:30.514 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 18.101185399 < 40
+2023-12-27 02:20:32.222 | INFO     | modules.maverick:swap:199 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.31337664 USDC
+2023-12-27 02:20:35.972 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Storage invocations limit reached
+2023-12-27 02:20:35.973 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 16 s.
+2023-12-27 02:21:40.186 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:21:40.407 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 19.611714732 < 40
+2023-12-27 02:21:42.360 | INFO     | modules.maverick:swap:198 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.31337664 USDC
+2023-12-27 02:21:46.127 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Storage invocations limit reached
+2023-12-27 02:21:46.129 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 15 s.
+2023-12-27 02:23:33.185 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:23:33.489 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 21.506593785 < 40
+2023-12-27 02:23:34.629 | INFO     | modules.maverick:swap:199 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.30684796 USDC
+2023-12-27 02:23:36.871 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Storage invocations limit reached
+2023-12-27 02:23:36.873 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 19 s.
+2023-12-27 02:27:21.136 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:27:21.351 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 19.05648893 < 40
+2023-12-27 02:27:22.559 | INFO     | modules.maverick:swap:198 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.31337664 USDC
+2023-12-27 02:27:22.564 | ERROR    | utils.helpers:wrapper:14 - Error | 
+Could not identify the intended function with name `exactInput`, positional arguments with type(s) `(bytes,address,int,int,float)` and keyword arguments with type(s) `{}`.
+Found 1 function(s) with the name `exactInput`: ['exactInput((bytes,address,uint256,uint256,uint256))']
+Function invocation failed due to no matching argument types.
+2023-12-27 02:27:22.564 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 10 s.
+2023-12-27 02:27:32.673 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:27:32.876 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 19.285775166 < 40
+2023-12-27 02:27:33.717 | INFO     | modules.maverick:swap:198 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.30031928 USDC
+2023-12-27 02:27:33.720 | ERROR    | utils.helpers:wrapper:14 - Error | 
+Could not identify the intended function with name `exactInput`, positional arguments with type(s) `(bytes,address,int,int,float)` and keyword arguments with type(s) `{}`.
+Found 1 function(s) with the name `exactInput`: ['exactInput((bytes,address,uint256,uint256,uint256))']
+Function invocation failed due to no matching argument types.
+2023-12-27 02:27:33.721 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 18 s.
+2023-12-27 02:27:51.853 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:27:52.038 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 19.815733667 < 40
+2023-12-27 02:27:52.990 | INFO     | modules.maverick:swap:198 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.2937906 USDC
+2023-12-27 02:27:52.992 | ERROR    | utils.helpers:wrapper:14 - Error | 
+Could not identify the intended function with name `exactInput`, positional arguments with type(s) `(bytes,address,int,int,float)` and keyword arguments with type(s) `{}`.
+Found 1 function(s) with the name `exactInput`: ['exactInput((bytes,address,uint256,uint256,uint256))']
+Function invocation failed due to no matching argument types.
+2023-12-27 02:27:52.994 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 20 s.
+2023-12-27 02:28:13.221 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:28:13.521 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 19.687722609 < 40
+2023-12-27 02:28:14.491 | INFO     | modules.maverick:swap:198 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.3101123 USDC
+2023-12-27 02:28:14.493 | ERROR    | utils.helpers:wrapper:14 - Error | 
+Could not identify the intended function with name `exactInput`, positional arguments with type(s) `(bytes,address,int,int,float)` and keyword arguments with type(s) `{}`.
+Found 1 function(s) with the name `exactInput`: ['exactInput((bytes,address,uint256,uint256,uint256))']
+Function invocation failed due to no matching argument types.
+2023-12-27 02:28:14.495 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 10 s.
+2023-12-27 02:28:24.599 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 516 s.
+2023-12-27 02:29:19.317 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:29:19.571 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 18.280867193 < 40
+2023-12-27 02:29:21.020 | INFO     | modules.maverick:swap:198 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.30031928 USDC
+2023-12-27 02:29:22.077 | ERROR    | utils.helpers:wrapper:14 - Error | Cannot set 'data' field in build transaction
+2023-12-27 02:29:22.078 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 15 s.
+2023-12-27 02:29:37.201 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:29:37.628 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 18.818441173 < 40
+2023-12-27 02:29:39.270 | INFO     | modules.maverick:swap:198 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.32316966 USDC
+2023-12-27 02:29:40.081 | ERROR    | utils.helpers:wrapper:14 - Error | Cannot set 'data' field in build transaction
+2023-12-27 02:29:40.082 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 16 s.
+2023-12-27 02:30:21.540 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:30:21.776 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 18.811220608 < 40
+2023-12-27 02:30:22.740 | INFO     | modules.maverick:swap:198 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.30684796 USDC
+2023-12-27 02:30:24.332 | ERROR    | utils.helpers:wrapper:14 - Error | Cannot set 'data' field in build transaction
+2023-12-27 02:30:24.334 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 20 s.
+2023-12-27 02:31:19.471 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:31:20.102 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 18.54735546 < 40
+2023-12-27 02:31:21.838 | INFO     | modules.maverick:swap:198 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.326434 USDC
+2023-12-27 02:31:23.412 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: STF
+2023-12-27 02:31:23.413 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 17 s.
+2023-12-27 02:31:40.590 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:31:40.835 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 18.89511107 < 40
+2023-12-27 02:33:42.298 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:33:42.753 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 18.224317127 < 40
+2023-12-27 02:33:44.412 | INFO     | modules.maverick:swap:197 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.30031928 USDC
+2023-12-27 02:33:45.269 | ERROR    | utils.helpers:wrapper:14 - Error | Cannot set 'data' field in transact transaction
+2023-12-27 02:33:45.270 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 10 s.
+2023-12-27 02:33:55.365 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:33:55.445 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 17.690880038 < 40
+2023-12-27 02:33:56.278 | INFO     | modules.maverick:swap:197 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.2937906 USDC
+2023-12-27 02:33:57.097 | ERROR    | utils.helpers:wrapper:14 - Error | Cannot set 'data' field in transact transaction
+2023-12-27 02:33:57.098 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 17 s.
+2023-12-27 02:34:29.615 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:34:29.837 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 17.800531209 < 40
+2023-12-27 02:34:31.583 | INFO     | modules.maverick:swap:197 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.29705494 USDC
+2023-12-27 02:34:33.121 | ERROR    | utils.helpers:wrapper:14 - Error | Cannot set 'data' field in transact transaction
+2023-12-27 02:34:33.124 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 16 s.
+2023-12-27 02:35:43.875 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:35:44.102 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 17.562664936 < 40
+2023-12-27 02:35:45.044 | INFO     | modules.maverick:swap:198 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.32316966 USDC
+2023-12-27 02:35:46.559 | ERROR    | utils.helpers:wrapper:14 - Error | Cannot set 'data' field in build transaction
+2023-12-27 02:35:46.560 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 13 s.
+2023-12-27 02:35:59.692 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:36:00.054 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 17.540701726 < 40
+2023-12-27 02:36:01.173 | INFO     | modules.maverick:swap:198 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.30358362 USDC
+2023-12-27 02:36:01.991 | ERROR    | utils.helpers:wrapper:14 - Error | Cannot set 'data' field in build transaction
+2023-12-27 02:36:01.993 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 10 s.
+2023-12-27 02:36:12.083 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:36:12.638 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 18.088013009 < 40
+2023-12-27 02:36:13.712 | INFO     | modules.maverick:swap:198 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.31990532 USDC
+2023-12-27 02:36:14.541 | ERROR    | utils.helpers:wrapper:14 - Error | Cannot set 'data' field in build transaction
+2023-12-27 02:36:14.544 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 17 s.
+2023-12-27 02:36:48.950 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:36:49.387 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 17.869932475 < 40
+2023-12-27 02:36:50.369 | INFO     | modules.maverick:swap:199 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.326434 USDC
+2023-12-27 02:36:51.724 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: STF
+2023-12-27 02:36:51.725 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 19 s.
+2023-12-27 02:37:10.919 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:37:11.119 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 18.037860438 < 40
+2023-12-27 02:37:12.099 | INFO     | modules.maverick:swap:199 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.2937906 USDC
+2023-12-27 02:37:13.446 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: STF
+2023-12-27 02:37:13.448 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 17 s.
+2023-12-27 02:37:30.614 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:37:30.834 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 18.066038845 < 40
+2023-12-27 02:37:31.796 | INFO     | modules.maverick:swap:199 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.326434 USDC
+2023-12-27 02:37:33.039 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: STF
+2023-12-27 02:37:33.041 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 13 s.
+2023-12-27 02:37:46.162 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:37:46.682 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 17.957104807 < 40
+2023-12-27 02:37:47.535 | INFO     | modules.maverick:swap:199 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.31990532 USDC
+2023-12-27 02:37:48.860 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: STF
+2023-12-27 02:37:48.862 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 12 s.
+2023-12-27 02:38:00.991 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 590 s.
+2023-12-27 02:38:10.249 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:38:10.451 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 18.357242451 < 40
+2023-12-27 02:38:11.468 | INFO     | modules.maverick:swap:199 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.31664098 USDC
+2023-12-27 02:38:12.726 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: slice_outOfBounds
+2023-12-27 02:38:12.727 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 15 s.
+2023-12-27 02:38:27.868 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:38:28.088 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 18.567797614 < 40
+2023-12-27 02:38:29.995 | INFO     | modules.maverick:swap:199 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.30684796 USDC
+2023-12-27 02:38:31.227 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: slice_outOfBounds
+2023-12-27 02:38:31.228 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 11 s.
+2023-12-27 02:38:42.331 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:38:42.700 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 17.873682475 < 40
+2023-12-27 02:38:43.550 | INFO     | modules.maverick:swap:199 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.326434 USDC
+2023-12-27 02:38:44.980 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: slice_outOfBounds
+2023-12-27 02:38:44.981 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 20 s.
+2023-12-27 02:39:08.627 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:39:08.884 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 18.579648478 < 40
+2023-12-27 02:39:10.058 | INFO     | modules.maverick:swap:199 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.2937906 USDC
+2023-12-27 02:39:11.258 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: slice_outOfBounds
+2023-12-27 02:39:11.259 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 14 s.
+2023-12-27 02:39:25.376 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:39:25.881 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 19.848206482 < 40
+2023-12-27 02:39:26.712 | INFO     | modules.maverick:swap:199 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.30031928 USDC
+2023-12-27 02:39:28.383 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: slice_outOfBounds
+2023-12-27 02:39:28.384 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 17 s.
+2023-12-27 02:39:45.571 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:39:45.855 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 17.918846836 < 40
+2023-12-27 02:39:46.853 | INFO     | modules.maverick:swap:199 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.29705494 USDC
+2023-12-27 02:39:49.096 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: slice_outOfBounds
+2023-12-27 02:39:49.098 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 20 s.
+2023-12-27 02:40:09.304 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:40:09.960 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 20.569894879 < 40
+2023-12-27 02:40:10.930 | INFO     | modules.maverick:swap:199 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.30031928 USDC
+2023-12-27 02:40:21.149 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:40:21.450 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 21.066404518 < 40
+2023-12-27 02:40:22.417 | INFO     | modules.maverick:swap:199 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.31990532 USDC
+2023-12-27 02:40:24.372 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: STF
+2023-12-27 02:40:24.373 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 10 s.
+2023-12-27 02:40:34.461 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:40:34.698 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 21.336516075 < 40
+2023-12-27 02:40:35.528 | INFO     | modules.maverick:swap:199 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.29705494 USDC
+2023-12-27 02:40:36.813 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: STF
+2023-12-27 02:40:36.815 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 17 s.
+2023-12-27 02:43:29.949 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:43:30.185 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 20.209672186 < 40
+2023-12-27 02:43:31.141 | INFO     | modules.maverick:swap:198 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.31664098 USDC
+2023-12-27 02:43:31.419 | SUCCESS  | modules.account:approve:125 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Make approve
+2023-12-27 02:43:31.420 | ERROR    | utils.helpers:wrapper:14 - Error | Account.get_tx_data() missing 1 required positional argument: 'data'
+2023-12-27 02:43:31.420 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 19 s.
+2023-12-27 02:43:50.613 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:43:51.189 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 19.086325387 < 40
+2023-12-27 02:43:52.175 | INFO     | modules.maverick:swap:198 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.326434 USDC
+2023-12-27 02:43:52.464 | SUCCESS  | modules.account:approve:125 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Make approve
+2023-12-27 02:43:52.465 | ERROR    | utils.helpers:wrapper:14 - Error | Account.get_tx_data() missing 1 required positional argument: 'data'
+2023-12-27 02:43:52.468 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 13 s.
+2023-12-27 02:44:41.498 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:44:41.897 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 19.41474773 < 40
+2023-12-27 02:44:43.830 | INFO     | modules.maverick:swap:198 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.30684796 USDC
+2023-12-27 02:44:44.110 | SUCCESS  | modules.account:approve:116 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Make approve
+2023-12-27 02:44:46.556 | SUCCESS  | modules.account:wait_until_tx_finished:142 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] https://explorer.zksync.io/tx/0xd3fa1ca5487a38a783a3b6e16fbdc386e6bbafc70b8bc4d3aaad8b6e446f4919 successfully!
+2023-12-27 02:44:46.558 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 8 s.
+2023-12-27 02:44:54.641 | ERROR    | utils.helpers:wrapper:14 - Error | Account.get_tx_data() takes from 1 to 2 positional arguments but 3 were given
+2023-12-27 02:44:54.642 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 20 s.
+2023-12-27 02:45:14.779 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:45:15.152 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 18.328396243 < 40
+2023-12-27 02:45:16.177 | INFO     | modules.maverick:swap:198 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.30031928 USDC
+2023-12-27 02:45:16.466 | ERROR    | utils.helpers:wrapper:14 - Error | Account.get_tx_data() takes from 1 to 2 positional arguments but 3 were given
+2023-12-27 02:45:16.469 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 17 s.
+2023-12-27 02:45:33.597 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:45:33.773 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 18.694536256 < 40
+2023-12-27 02:45:34.730 | INFO     | modules.maverick:swap:198 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.32316966 USDC
+2023-12-27 02:45:35.032 | ERROR    | utils.helpers:wrapper:14 - Error | Account.get_tx_data() takes from 1 to 2 positional arguments but 3 were given
+2023-12-27 02:45:35.037 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 11 s.
+2023-12-27 02:45:46.136 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:45:46.287 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 19.042965176 < 40
+2023-12-27 02:45:47.122 | INFO     | modules.maverick:swap:198 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.326434 USDC
+2023-12-27 02:45:47.405 | ERROR    | utils.helpers:wrapper:14 - Error | Account.get_tx_data() takes from 1 to 2 positional arguments but 3 were given
+2023-12-27 02:45:47.406 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 15 s.
+2023-12-27 02:46:02.550 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 778 s.
+2023-12-27 02:48:41.274 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:48:41.696 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 20.293849128 < 40
+2023-12-27 02:48:42.710 | INFO     | modules.maverick:swap:198 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.31664098 USDC
+2023-12-27 02:48:44.538 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Too little received
+2023-12-27 02:48:44.540 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 15 s.
+2023-12-27 02:48:59.670 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:49:00.110 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 20.207961733 < 40
+2023-12-27 02:49:01.753 | INFO     | modules.maverick:swap:198 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 0.2937906 USDC
+2023-12-27 02:49:03.534 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Too little received
+2023-12-27 02:49:03.535 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 10 s.
+2023-12-27 02:52:46.673 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:52:47.024 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 19.89318086 < 40
+2023-12-27 02:52:48.845 | INFO     | modules.maverick:swap:198 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 22.424451 USDC
+2023-12-27 02:52:51.050 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Too little received
+2023-12-27 02:52:51.051 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 19 s.
+2023-12-27 02:53:10.239 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:53:10.651 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 19.84256076 < 40
+2023-12-27 02:53:11.610 | INFO     | modules.maverick:swap:198 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 22.424451 USDC
+2023-12-27 02:53:13.457 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Too little received
+2023-12-27 02:53:13.458 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 20 s.
+2023-12-27 02:54:07.841 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:54:08.684 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 21.769267335 < 40
+2023-12-27 02:54:09.665 | INFO     | modules.maverick:swap:198 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 22.424451 USDC
+2023-12-27 02:54:11.316 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Too little received
+2023-12-27 02:54:11.317 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 15 s.
+2023-12-27 02:54:39.559 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:54:40.106 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 21.411974221 < 40
+2023-12-27 02:54:41.936 | INFO     | modules.maverick:swap:198 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 22.424451 USDC
+2023-12-27 02:54:43.588 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Too little received
+2023-12-27 02:54:43.589 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 18 s.
+2023-12-27 02:56:20.881 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:56:21.251 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 19.573327367 < 40
+2023-12-27 02:56:22.266 | INFO     | modules.maverick:swap:198 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 22.424451 USDC
+2023-12-27 02:56:24.316 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Too little received
+2023-12-27 02:56:24.317 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 16 s.
+2023-12-27 02:57:23.776 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:57:23.975 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 18.932730751 < 40
+2023-12-27 02:57:25.074 | INFO     | modules.maverick:swap:198 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 22.424451 USDC
+2023-12-27 02:57:26.918 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Too little received
+2023-12-27 02:57:26.919 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 12 s.
+2023-12-27 02:57:39.032 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:57:39.393 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 18.362299295 < 40
+2023-12-27 02:57:41.108 | INFO     | modules.maverick:swap:198 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 22.424451 USDC
+2023-12-27 02:58:41.451 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:58:41.657 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 19.365193566 < 40
+2023-12-27 02:58:42.686 | INFO     | modules.maverick:swap:198 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 20.406250410000002 USDC
+2023-12-27 02:58:44.538 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Too little received
+2023-12-27 02:58:44.539 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 16 s.
+2023-12-27 02:59:00.690 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:59:00.952 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 18.9793823 < 40
+2023-12-27 02:59:02.819 | INFO     | modules.maverick:swap:198 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 22.20020649 USDC
+2023-12-27 02:59:04.564 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Too little received
+2023-12-27 02:59:04.565 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 14 s.
+2023-12-27 02:59:18.719 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:59:19.260 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 19.978487473 < 40
+2023-12-27 02:59:20.135 | INFO     | modules.maverick:swap:198 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 20.1820059 USDC
+2023-12-27 02:59:22.009 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Too little received
+2023-12-27 02:59:22.010 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 17 s.
+2023-12-27 02:59:49.009 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 02:59:49.459 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 19.29528577 < 40
+2023-12-27 02:59:50.669 | INFO     | modules.maverick:swap:198 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 21.07898394 USDC
+2023-12-27 02:59:52.598 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Too little received
+2023-12-27 02:59:52.599 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 11 s.
+2023-12-27 03:00:24.155 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 03:00:24.538 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 18.101029569 < 40
+2023-12-27 03:00:25.897 | INFO     | modules.maverick:swap:198 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 22.424451 USDC
+2023-12-27 03:00:27.578 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Too little received
+2023-12-27 03:00:27.579 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 19 s.
+2023-12-27 03:02:52.500 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 03:02:52.720 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 18.681786426 < 40
+2023-12-27 03:02:53.681 | INFO     | modules.maverick:swap:198 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 21.97596198 USDC
+2023-12-27 03:02:54.778 | ERROR    | utils.helpers:wrapper:14 - Error | Unsupported type: '<class 'float'>'.  Must be one of: bool, str, bytes, bytearrayor int.
+2023-12-27 03:02:54.779 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 17 s.
+2023-12-27 03:04:18.873 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 03:04:19.230 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 20.483907174 < 40
+2023-12-27 03:04:20.927 | INFO     | modules.maverick:swap:198 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 20.854739430000002 USDC
+2023-12-27 03:04:22.563 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Too little received
+2023-12-27 03:04:22.564 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 11 s.
+2023-12-27 03:04:33.663 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 03:04:33.842 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 20.511987649 < 40
+2023-12-27 03:04:34.854 | INFO     | modules.maverick:swap:198 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 20.406250410000002 USDC
+2023-12-27 03:04:36.969 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Too little received
+2023-12-27 03:04:36.970 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 10 s.
+2023-12-27 03:05:05.744 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 03:05:05.940 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 21.298435436 < 40
+2023-12-27 03:05:07.678 | INFO     | modules.maverick:swap:198 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 20.1820059 USDC
+2023-12-27 03:05:09.409 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Too little received
+2023-12-27 03:05:09.411 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 17 s.
+2023-12-27 03:06:09.909 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 03:06:10.227 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 19.886775686 < 40
+2023-12-27 03:06:12.004 | INFO     | modules.maverick:swap:198 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 20.854739430000002 USDC
+2023-12-27 03:06:13.773 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Too little received
+2023-12-27 03:06:13.776 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 11 s.
+2023-12-27 03:06:24.884 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 03:06:25.252 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 20.648181252 < 40
+2023-12-27 03:06:26.163 | INFO     | modules.maverick:swap:198 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 21.07898394 USDC
+2023-12-27 03:06:27.907 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Too little received
+2023-12-27 03:06:27.911 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 16 s.
+2023-12-27 03:07:58.005 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 03:07:58.245 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 21.159950849 < 40
+2023-12-27 03:07:59.332 | INFO     | modules.maverick:swap:197 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 20.406250410000002 USDC
+2023-12-27 03:08:01.133 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Too little received
+2023-12-27 03:08:01.134 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 18 s.
+2023-12-27 03:08:19.296 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 03:08:19.677 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 20.690517202 < 40
+2023-12-27 03:08:20.702 | INFO     | modules.maverick:swap:197 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 22.20020649 USDC
+2023-12-27 03:08:23.160 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Too little received
+2023-12-27 03:08:23.161 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 11 s.
+2023-12-27 03:08:34.273 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 03:08:34.370 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 20.220542626 < 40
+2023-12-27 03:08:35.450 | INFO     | modules.maverick:swap:197 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 20.1820059 USDC
+2023-12-27 03:08:37.035 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Too little received
+2023-12-27 03:08:37.036 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 19 s.
+2023-12-27 03:08:56.179 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 03:08:56.639 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 19.725230153 < 40
+2023-12-27 03:08:57.692 | INFO     | modules.maverick:swap:197 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 22.424451 USDC
+2023-12-27 03:08:59.464 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Too little received
+2023-12-27 03:08:59.468 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 12 s.
+2023-12-27 03:09:11.600 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 647 s.
+2023-12-27 03:14:09.777 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 03:14:10.008 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 16.470301724 < 40
+2023-12-27 03:14:11.064 | INFO     | modules.maverick:swap:197 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 22.424451 USDC
+2023-12-27 03:14:20.587 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Storage invocations limit reached
+2023-12-27 03:14:20.588 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 12 s.
+2023-12-27 03:14:32.727 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 03:14:34.032 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 17.096188658 < 40
+2023-12-27 03:14:35.003 | INFO     | modules.maverick:swap:197 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 22.424451 USDC
+2023-12-27 03:14:51.678 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 03:14:52.001 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 15.683384201 < 40
+2023-12-27 03:14:53.932 | INFO     | modules.maverick:swap:197 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 20.1820059 USDC
+2023-12-27 03:15:00.320 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Storage invocations limit reached
+2023-12-27 03:15:00.321 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 12 s.
+2023-12-27 03:15:26.141 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 03:15:26.324 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 15.812433327 < 40
+2023-12-27 03:15:27.455 | INFO     | modules.maverick:swap:197 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 21.52747296 USDC
+2023-12-27 03:15:29.067 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Too little received
+2023-12-27 03:15:29.070 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 15 s.
+2023-12-27 03:15:44.231 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 03:15:44.558 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 15.589585437 < 40
+2023-12-27 03:15:46.411 | INFO     | modules.maverick:swap:197 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 20.406250410000002 USDC
+2023-12-27 03:15:48.084 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Too little received
+2023-12-27 03:15:48.087 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 18 s.
+2023-12-27 03:16:06.331 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 03:16:06.922 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 15.633913652 < 40
+2023-12-27 03:16:09.343 | INFO     | modules.maverick:swap:197 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 21.75171747 USDC
+2023-12-27 03:16:11.110 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Too little received
+2023-12-27 03:16:11.114 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 19 s.
+2023-12-27 03:16:30.335 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 03:16:31.159 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 16.034717092 < 40
+2023-12-27 03:16:32.356 | INFO     | modules.maverick:swap:197 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 21.07898394 USDC
+2023-12-27 03:16:34.232 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Too little received
+2023-12-27 03:16:34.234 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 10 s.
+2023-12-27 03:16:44.286 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 543 s.
+2023-12-27 03:17:46.451 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 03:17:46.826 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 16.974064967 < 40
+2023-12-27 03:17:47.890 | INFO     | modules.maverick:swap:194 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 21.97596198 USDC
+2023-12-27 03:18:15.468 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Storage invocations limit reached
+2023-12-27 03:18:15.469 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 15 s.
+2023-12-27 03:18:30.622 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 03:18:30.790 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 17.979799521 < 40
+2023-12-27 03:18:32.473 | INFO     | modules.maverick:swap:194 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 21.97596198 USDC
+2023-12-27 03:19:01.126 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Storage invocations limit reached
+2023-12-27 03:19:01.129 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 15 s.
+2023-12-27 03:19:16.248 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 03:19:17.211 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 17.235114054 < 40
+2023-12-27 03:19:18.925 | INFO     | modules.maverick:swap:194 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 22.20020649 USDC
+2023-12-27 03:20:37.173 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 03:20:37.384 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 17.133561803 < 40
+2023-12-27 03:20:38.447 | INFO     | modules.maverick:swap:195 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 20.406250410000002 USDC
+2023-12-27 03:21:33.701 | ERROR    | utils.helpers:wrapper:14 - Error | 
+2023-12-27 03:21:33.703 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 18 s.
+2023-12-27 03:21:51.945 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 03:21:52.138 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 16.022704512 < 40
+2023-12-27 03:21:54.611 | INFO     | modules.maverick:swap:195 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 22.424451 USDC
+2023-12-27 03:22:01.904 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Storage invocations limit reached
+2023-12-27 03:22:01.908 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 15 s.
+2023-12-27 03:23:05.879 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 03:23:06.135 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 15.358021738 < 40
+2023-12-27 03:23:07.234 | INFO     | modules.maverick:swap:195 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 21.30322845 USDC
+2023-12-27 03:23:16.261 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Storage invocations limit reached
+2023-12-27 03:23:16.262 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 12 s.
+2023-12-27 03:23:28.368 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 03:23:28.551 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 15.970931731 < 40
+2023-12-27 03:23:30.179 | INFO     | modules.maverick:swap:195 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 21.75171747 USDC
+2023-12-27 03:24:20.760 | ERROR    | utils.helpers:wrapper:14 - Error | execution reverted: Storage invocations limit reached
+2023-12-27 03:24:20.762 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 20 s.
+2023-12-27 03:24:40.922 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 03:28:49.703 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 03:28:50.082 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 16.667090194 < 40
+2023-12-27 03:28:51.363 | INFO     | modules.maverick:swap:196 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – USDC -> WBTC | 21.75171747 USDC
+2023-12-27 03:28:55.861 | SUCCESS  | modules.account:wait_until_tx_finished:142 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] https://explorer.zksync.io/tx/0xbac99a0066cb32ce197701d0a796004e3ed670988131ce1945643805c51fae6d successfully!
+2023-12-27 03:28:55.863 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 563 s.
+2023-12-27 03:37:45.603 | INFO     | utils.gas_checker:wait_gas:29 - Get GWEI
+2023-12-27 03:37:46.042 | SUCCESS  | utils.gas_checker:wait_gas:37 - GWEI is normal | current: 19.403611821 < 40
+2023-12-27 03:37:48.194 | INFO     | modules.maverick:swap:180 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Swap on Maverick – WBTC -> USDC | 0.0004630444 WBTC
+2023-12-27 03:37:48.478 | SUCCESS  | modules.account:approve:116 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] Make approve
+2023-12-27 03:37:52.424 | SUCCESS  | modules.account:wait_until_tx_finished:142 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] https://explorer.zksync.io/tx/0xefab039dfe451ea25a73a5af8a1a028fc4739891847c4315399704e71a9ce2f7 successfully!
+2023-12-27 03:37:52.426 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 20 s.
+2023-12-27 03:38:16.197 | SUCCESS  | modules.account:wait_until_tx_finished:142 - [1][0x8FA132f0B40FE0d7E4012163E47E08f7e4700f0B] https://explorer.zksync.io/tx/0xc49a89657a5993b91e87ebe3daf7231977180e0f32b10e32a24e7069991fc938 successfully!
+2023-12-27 03:38:16.198 | INFO     | utils.sleeping:sleep:10 - 💤 Sleep 675 s.
